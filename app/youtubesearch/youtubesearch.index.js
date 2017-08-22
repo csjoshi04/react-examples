@@ -1,15 +1,11 @@
 import ReactDOM from 'react-dom'
 import React from 'react';
-import {HelloComponent} from "./component/hello.component";
+import SearchBar from "./component/search-bar.component"
 
-export class ReactAppMainComponent extends React.Component{
-    render(){
-        return(
-            <div>
-                <HelloComponent/>
-            </div>
-        )
-    }
+const API_KEY = "AIzaSyASxeLmKlYrOzjsQfegNOAYBxU4_UQWyts";
+
+const App = () =>{
+    return <SearchBar/>
 }
 
-ReactDOM.render(<ReactAppMainComponent/>,document.getElementById('reactApp'))
+ReactDOM.render(<App/>,document.getElementById('reactApp'))
