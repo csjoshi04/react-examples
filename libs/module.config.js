@@ -34,7 +34,24 @@ const moduleConfig = {
 
                 generatedIndexHTMLFile : "gen.youtubesearch.index.html",
                 indexHTMLTemplateFileLocation : path.join(appBasePath, "youtubesearch", "youtubesearch.index.html")
+            },
+            {
+                generatedIndexJSName : "gen.reduxapp.index",
+                indexJSLocation : path.join(appBasePath, "reduxapp", "reduxapp.index.js"),
+
+                generatedIndexCSSName : "gen.reduxapp.style",
+                cssFiles : [path.join(appBasePath, "reduxapp", "styles", "reduxapp.style.css")],
+
+                generatedVendorJSName : "gen.reduxapp.jsvendor",
+                jsVendors : ['react','react-dom','redux','react-redux'],
+
+                generatedVendorCSSName : "gen.reduxapp.css.vendor",
+                vendorCSSFiles : [path.join(projectBasePath, "node_modules", "bootstrap", "dist", "css", "bootstrap.css")],
+
+                generatedIndexHTMLFile : "gen.reduxapp.index.html",
+                indexHTMLTemplateFileLocation : path.join(appBasePath, "reduxapp", "reduxapp.index.html")
             }
+
         ]
     }
 }

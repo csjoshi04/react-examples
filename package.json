@@ -81,6 +81,8 @@
     "mdn-polyfills": "^3.5.0",
     "protractor": "^5.1.2",
     "raw-loader": "^0.5.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
     "rimraf": "^2.6.1",
     "style-loader": "^0.13.1",
     "ts-node": "^3.0.6",
