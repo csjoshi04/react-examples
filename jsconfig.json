@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "app/**/*"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "core-js","node","jasmine"
+        ]
+    }
+}

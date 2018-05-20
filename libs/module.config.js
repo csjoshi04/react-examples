@@ -50,6 +50,54 @@ const moduleConfig = {
 
                 generatedIndexHTMLFile : "gen.reduxapp.index.html",
                 indexHTMLTemplateFileLocation : path.join(appBasePath, "reduxapp", "reduxapp.index.html")
+            },
+            {
+                generatedIndexJSName : "gen.redux-middleware-weather.index",
+                indexJSLocation : path.join(appBasePath, "redux-middleware-weather", "redux-middleware-weather.index.js"),
+
+                generatedIndexCSSName : "gen.redux-middleware-weather.style",
+                cssFiles : [path.join(appBasePath, "redux-middleware-weather", "styles", "redux-middleware-weather.style.css")],
+
+                generatedVendorJSName : "gen.redux-middleware-weather.jsvendor",
+                jsVendors : ['react','react-dom','redux','react-redux'],
+
+                generatedVendorCSSName : "gen.redux-middleware-weather.css.vendor",
+                vendorCSSFiles : [path.join(projectBasePath, "node_modules", "bootstrap", "dist", "css", "bootstrap.css")],
+
+                generatedIndexHTMLFile : "gen.redux-middleware-weather.index.html",
+                indexHTMLTemplateFileLocation : path.join(appBasePath, "redux-middleware-weather", "redux-middleware-weather.index.html")
+            },
+            {
+                generatedIndexJSName : "gen.router-form.index",
+                indexJSLocation : path.join(appBasePath, "router-form", "router-form.index.js"),
+
+                generatedIndexCSSName : "gen.router-form.style",
+                cssFiles : [path.join(appBasePath, "router-form", "styles", "router-form.style.css")],
+
+                generatedVendorJSName : "gen.router-form.jsvendor",
+                jsVendors : ['react','react-dom'],
+
+                generatedVendorCSSName : "gen.router-form.css.vendor",
+                vendorCSSFiles : [path.join(projectBasePath, "node_modules", "bootstrap", "dist", "css", "bootstrap.css")],
+
+                generatedIndexHTMLFile : "gen.router-form.index.html",
+                indexHTMLTemplateFileLocation : path.join(appBasePath, "router-form", "router-form.index.html")
+            },
+            {
+                generatedIndexJSName : "gen.bookapp.index",
+                indexJSLocation : path.join(appBasePath, "bookapp", "bookapp.index.js"),
+
+                generatedIndexCSSName : "gen.bookapp.style",
+                cssFiles : [path.join(appBasePath, "bookapp", "styles", "bookapp.style.css")],
+
+                generatedVendorJSName : "gen.bookapp.jsvendor",
+                jsVendors : ['react','react-dom','redux','react-redux'],
+
+                generatedVendorCSSName : "gen.bookapp.css.vendor",
+                vendorCSSFiles : [path.join(projectBasePath, "node_modules", "bootstrap", "dist", "css", "bootstrap.css")],
+
+                generatedIndexHTMLFile : "gen.bookapp.index.html",
+                indexHTMLTemplateFileLocation : path.join(appBasePath, "bookapp", "bookapp.index.html")
             }
 
         ]
